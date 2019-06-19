@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Pizzas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <app-pizza-item *ngFor="let pizza of pizzas" [pizzaItem]="pizza"></app-pizza-item>
+  </ion-list>
+
+
+
+</ion-content>

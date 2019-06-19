@@ -1,0 +1,7 @@
+{
+  "name": "pizza-item",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
